@@ -1,6 +1,6 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from 'lucide-react'
 
-import { Button } from "@/components/button";
+import { Button } from '@/components/button'
 
 export default function Home() {
   return (
@@ -10,5 +10,5 @@ export default function Home() {
         <ArrowRight />
       </Button>
     </main>
-  );
+  )
 }
