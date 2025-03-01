@@ -1,11 +1,8 @@
-import { Copy, Link } from 'lucide-react'
 import Image from 'next/image'
 
 import logo from '@/assets/logo.svg'
 
-import { IconButton } from '@/components/icon-button'
-import { InputField, InputIcon, InputRoot } from '@/components/input'
-
+import { InviteLinkInput } from './invite-link-input'
 import { Ranking } from './ranking'
 import { Stats } from './stats'
 
@@ -32,18 +29,7 @@ export default function InvitePage() {
               Just share the link below and follow the registrations:
             </p>
           </div>
-          <InputRoot>
-            <InputIcon>
-              <Link className="size-5" />
-            </InputIcon>
-            <InputField
-              readOnly
-              defaultValue="http://localhost:3333/invite/ry38sa879fas87g7f8a"
-            />
-            <IconButton className="-mr-2">
-              <Copy className="size-5" />
-            </IconButton>
-          </InputRoot>
+          <InviteLinkInput />
           <Stats />
         </div>
       </div>
