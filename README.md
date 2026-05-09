@@ -52,6 +52,9 @@ Whether you are hosting a developer conference, a local workshop, or a massive w
 - Node.js (version 18 or later)
 - `npm` or `yarn`
 
+> [!IMPORTANT]
+> Do not forget to run the back-end server. The application requires an active API connection to initialize correctly.
+
 ## 💻 How to run
 
 ```bash
